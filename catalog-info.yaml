@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test5
+  description: Test
+  annotations:
+    github.com/project-slug: dzemanov/test5
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/createdAt: 9/30/2024, 11:32:41 AM
+    custom.io/other: value
+  labels:
+    other: test-label
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/team-group
+  scaffoldedFrom: template:default/create-react-app-template-with-timestamp-entityref
